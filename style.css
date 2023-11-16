@@ -167,19 +167,19 @@ th {
 
 /* TEST DES FICHES ENTRAINEURS */
 .ensembledescartes {
-    max-width: 1200px;
+    max-width: 1600px;
     margin: 20px auto;
     display: flex;
     justify-content: space-around;
     text-align: center;
 }
 .person-card {
-    width: 300px;
+    width: 500px;
     background-color: #fff;
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin: 10px;
+    margin: 30px;
 }
 
 .person-image {
