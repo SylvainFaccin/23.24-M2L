@@ -129,10 +129,37 @@ th {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-#sports ul li {
-    display: inline;
-    margin-right: 15px;
+/*TEST CARTES SPORTS */
+.ensemblecartessport {
+    max-width: 1600px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
 }
+
+.sport-card {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    text-decoration: none;
+}
+
+.sport-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.sport-info {
+    padding: 20px;
+}
+
+/* FIN TEST CARTES SPORT */
+
 /* Historique section styles */
 #Historique {
     background-color: #f9f9f9;
