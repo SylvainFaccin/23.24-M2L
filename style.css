@@ -53,7 +53,9 @@ nav a:hover {
     color: #999999;
 
 }
-
+.Titre1{
+    text-align: center;
+}
 .imagehome{
     width: 3%;
 }
