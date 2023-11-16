@@ -131,7 +131,7 @@ th {
 
 /*TEST CARTES SPORTS */
 .ensemblecartessport {
-    max-width: 1600px;
+    max-width: 1500px;
     margin: 20px auto;
     display: flex;
     justify-content: space-around;
@@ -139,7 +139,7 @@ th {
 }
 
 .sport-card {
-    width: 300px;
+    width: 500px;
     background-color: #fff;
     border-radius: 8px;
     overflow: hidden;
