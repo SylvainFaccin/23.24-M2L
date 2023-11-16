@@ -11,10 +11,10 @@ body {
     background-color: #f5f5f5;
     color: #333;
     margin: 20px;
-    padding-top: 7%; /* BOF J'ai pas trouvé mieux */
+    padding-top: 7%;
 }
 
-/* Header styles */
+/* Styles communs à votre header */
 header {
     background-color: #333;
     color: #fff;
@@ -22,12 +22,12 @@ header {
     top: 0;
     box-shadow: 0 0 10px rgba(134, 134, 134, 0.8);
     position: fixed;
-    width: 100%; /* Ajusté à 100% pour occuper toute la largeur */
+    width: 100%;
     box-sizing: border-box;
-    left: 0; /* Ajout de left pour assurer que l'en-tête commence à partir du bord gauche */
-    z-index: 1000; /* Si nécessaire, pour assurer que l'en-tête est au-dessus du contenu */
+    left: 0;
+    z-index: 1000;
   }
-  
+    
 
 header h1 {
     font-size: 35px;
@@ -54,6 +54,9 @@ nav a:hover {
 
 }
 
+.imagehome{
+    width: 2%;
+}
 
 table {
     width: 100%;
