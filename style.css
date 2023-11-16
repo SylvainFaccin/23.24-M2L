@@ -163,10 +163,6 @@ th {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-#entraineurs h3 {
-    margin-left: 20px;
-}
-
 /* TEST DES FICHES ENTRAINEURS */
 .ensembledescartes {
     max-width: 1200px;
