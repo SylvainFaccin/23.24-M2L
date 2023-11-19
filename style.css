@@ -139,13 +139,18 @@ th {
 }
 
 .sport-card {
-    width: 500px;
+    width: 400px;
     background-color: #fff;
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin: 10px;
     text-decoration: none;
+    /* TEST ANIMATION PASSAGE DE CURSEUR */
+}
+.sport-card:hover {
+    background-color: #c2c1c1;
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.1);
 }
 
 .sport-image {
@@ -155,7 +160,7 @@ th {
 }
 
 .sport-info {
-    padding: 20px;
+    padding: 10px;
 }
 
 /* FIN TEST CARTES SPORT */
