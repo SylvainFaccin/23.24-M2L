@@ -35,16 +35,22 @@ header {
 
 nav ul {
     list-style: none;
-    text-align: center;
+    
+}
+nav { 
+ justify-content: space-around;
+ display: flex;
 }
 
 nav ul li {
     display: inline;
     margin-right: 15px;
+
 }
 
 nav a {
     text-decoration: none;
+    
     color: #fff;
     font-weight: bold;
 }
@@ -56,10 +62,18 @@ nav a:hover {
 }
 .Titre1{
     text-align: center;
+    
 }
 .imagehome{
-    width: 3%;
-    text-align: left;
+    width: 25%;
+}
+#imagehome1 {
+
+    float: left;
+}
+
+.navheader{
+    align-content: center;
 }
 
 table {
