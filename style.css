@@ -29,8 +29,8 @@ header {
   }
     
 
-header h1 {
-    font-size: 35px;
+    header h1 {
+        font-size: 35px;
 }
 
 nav ul {
@@ -91,11 +91,11 @@ th {
     margin-bottom: 15px;
 }
 
-.contact-info h3 {
-    color: #fff;
-    font-size: 1.2em;
-    margin-bottom: 10px;
-}
+    .contact-info h3 {
+        color: #fff;
+        font-size: 1.2em;
+        margin-bottom: 10px;
+    }
 
 /* Liens dans le footer */
 #footer a {
@@ -130,39 +130,40 @@ th {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/*TEST CARTES SPORTS */
-.ensemblecartessport {
-    max-width: 1500px;
-    margin: 20px auto;
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
-}
+    /*TEST CARTES SPORTS */
+    .ensemblecartessport {
+        max-width: 1500px;
+        margin: 20px auto;
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+    }
 
-.sport-card {
-    width: 400px;
-    background-color: #fff;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-decoration: none;
-    /* TEST ANIMATION PASSAGE DE CURSEUR */
-}
-.sport-card:hover {
-    background-color: #c2c1c1;
-    transition: transform 0.3s ease-in-out;
-    transform: scale(1.1);
-}
+        .sport-card {
+            width: 400px;
+            background-color: #fff;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-decoration: none;
+            /* TEST ANIMATION PASSAGE DE CURSEUR */
+        }
 
-.sport-image {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-}
+            .sport-card:hover {
+                background-color: #c2c1c1;
+                transition: transform 0.3s ease-in-out;
+                transform: scale(1.1);
+            }
 
-.sport-info {
-    padding: 10px;
-}
+                .sport-image {
+                    width: 100%;
+                    height: 200px;
+                    object-fit: cover;
+                }
+
+                .sport-info {
+                    padding: 10px;
+                }
 
 /* FIN TEST CARTES SPORT */
 
@@ -175,39 +176,39 @@ th {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.historique-div{
-    display: flex;
-    justify-content: space-around;
-    margin: 20px;
+    .historique-div{
+        display: flex;
+        justify-content: space-around;
+        margin: 20px;
 
-}
+    }
 
-.historique-texte{
-    width: 40%;
-    margin: 20px;
-    text-align: center;
-    margin: auto;
-}
+        .historique-texte{
+            width: 40%;
+            margin: 20px;
+            text-align: center;
+            margin: auto;
+        }
 
-.ensemble-photo-historique{
-    display: flex;
-    align-items:center;
-    margin: auto;
-}
+        .ensemble-photo-historique{
+            display: flex;
+            align-items:center;
+            margin: auto;
+        }
 
-.photo-historique{
-    margin: 20px;
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
+            .photo-historique{
+                margin: 20px;
+                width: 100%;
+                height: 200px;
+                object-fit: cover;
+                border-radius: 5px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            }
 
-.photo-historique:hover{
-    transition: transform 0.5s ease-in-out;
-    transform: scale(1.8);
-}
+            .photo-historique:hover{
+                transition: transform 0.5s ease-in-out;
+                transform: scale(1.8);
+            }
 
 
 /* Regles section styles */
@@ -219,38 +220,38 @@ th {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.regle-div{
-    display: flex;
-    justify-content: space-around;
-    margin: 20px;
-}
+    .regle-div{
+        display: flex;
+        justify-content: space-around;
+        margin: 20px;
+    }
 
-.regle-texte{
-    width: 40%;
-    margin: 20px;
-    text-align: center;
-    margin: auto;
-}
+        .regle-texte{
+            width: 40%;
+            margin: 20px;
+            text-align: center;
+            margin: auto;
+        }
 
-.regle-video{
-    display: flex;
-    align-items:center;
-    margin: auto;
-}
+        .regle-video{
+            display: flex;
+            align-items:center;
+            margin: auto;
+        }
 
-#Regles iframe{
-    width: 616px;
-    height: 346.5px;
-    border-radius: 5px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-    margin-top: 20px;
-    
-}
+            #Regles iframe{
+                width: 616px;
+                height: 346.5px;
+                border-radius: 5px;
+                box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+                margin-top: 20px;
+                
+            }
 
-#Regles iframe:hover{
-    transition: transform 0.7s ease-in-out;
-    transform: translate(75%, 20%) scale(2);
-}
+                #Regles iframe:hover{
+                    transition: transform 0.7s ease-in-out;
+                    transform: translate(75%, 20%) scale(2);
+                }
 
 
 /* entraineurs section styles */
@@ -262,39 +263,39 @@ th {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* TEST DES FICHES ENTRAINEURS */
-.ensembledescartes {
-    max-width: 1600px;
-    margin: 20px auto;
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
-}
-.person-card {
-    width: 500px;
-    background-color: #fff;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin: 30px;
-    
-}
+    /* TEST DES FICHES ENTRAINEURS */
+    .ensembledescartes {
+        max-width: 1600px;
+        margin: 20px auto;
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+    }
+        .person-card {
+            width: 500px;
+            background-color: #fff;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 30px;
+            
+        }
 
-.person-card:hover{
-    background-color: #f5f5f5;
-    transition: transform 0.3s ease-in-out;
-    transform: scale(1.1);
-}
+            .person-card:hover{
+                background-color: #f5f5f5;
+                transition: transform 0.3s ease-in-out;
+                transform: scale(1.1);
+            }
 
-.person-image {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-}
+                .person-image {
+                    width: 100%;
+                    height: 200px;
+                    object-fit: cover;
+                }
 
-.person-info {
-    padding: 20px;
-}
+                .person-info {
+                    padding: 20px;
+                }
 
 
 /* FIN TEST DES FICHES ENTRAINEURS */
@@ -316,6 +317,45 @@ th {
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
+    /* TEST DES FICHES LIEU */
+    .ensembledescartes-lieu {
+        max-width: 1600px;
+        margin: 20px auto;
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+    }
+        .lieu-card {
+            width: 500px;
+            background-color: #fff;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 30px;
+            
+        }
+
+            .lieu-card:hover{
+                background-color: #f5f5f5;
+                transition: transform 0.3s ease-in-out;
+                transform: scale(1.1);
+            }
+
+                .lieu-image {
+                    width: 100%;
+                    height: 200px;
+                    object-fit: cover;
+                }
+
+                .lieu-info {
+                    padding: 20px;
+                }
+
+
+/* FIN TEST DES FICHES LIEU */
+
+
 /* joursentrainements section styles */
 #joursentrainements {
     background-color: #f9f9f9;
