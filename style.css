@@ -59,6 +59,7 @@ nav a:hover {
 }
 .imagehome{
     width: 3%;
+    text-align: left;
 }
 
 table {
@@ -130,14 +131,17 @@ th {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-    /*TEST CARTES SPORTS */
-    .ensemblecartessport {
-        max-width: 1500px;
-        margin: 20px auto;
-        display: flex;
-        justify-content: space-around;
-        text-align: center;
-    }
+
+
+
+/*TEST CARTES SPORTS */
+.ensemblecartessport {
+    max-width: 1500px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
 
         .sport-card {
             width: 400px;
