@@ -13,10 +13,16 @@ body {
     margin: 20px;
     padding-top: 7%;
 }
+    .body-volley{
+        background-image:url('Images/fond_de_page/fond_volley.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position:50% 50%;
+    }
 
 /* Styles communs à votre header */
 header {
-    background-color: #1055af;
+    background-color:rgba(30, 72, 163,0.9);
     color: #fff;
     padding: 10px 20px;
     top: 0;
@@ -238,7 +244,7 @@ th {
 
 /* Historique section styles */
 #Historique {
-    background-color: #f9f9f9;
+    background-color:rgba(255, 255, 255, 0.9);
     padding: 20px;
     margin-top: 20px;
     border-radius: 5px;
@@ -285,7 +291,7 @@ th {
 
 /* Regles section styles */
 #Regles {
-    background-color: #f9f9f9;
+    background-color:rgba(255, 255, 255, 0.9);
     padding: 20px;
     margin-top: 20px;
     border-radius: 5px;
@@ -328,7 +334,7 @@ th {
 
 /* entraineurs section styles */
 #entraineurs {
-    background-color: #f9f9f9;
+    background-color:rgba(255, 255, 255, 0.9);
     padding: 20px;
     margin-top: 20px;
     border-radius: 5px;
@@ -383,7 +389,7 @@ th {
 
 /* categories section styles */
 #categories {
-    background-color: #f9f9f9;
+    background-color:rgba(255, 255, 255, 0.9);
     padding: 20px;
     margin-top: 20px;
     border-radius: 5px;
@@ -391,7 +397,7 @@ th {
 }
 /* lieuentrainements section styles */
 #lieuentrainements {
-    background-color: #f9f9f9;
+    background-color:rgba(255, 255, 255, 0.9);
     padding: 20px;
     margin-top: 20px;
     border-radius: 5px;
@@ -445,7 +451,7 @@ th {
 
 /* joursentrainements section styles */
 #joursentrainements {
-    background-color: #f9f9f9;
+    background-color:rgba(255, 255, 255, 0.9);
     padding: 20px;
     margin-top: 20px;
     border-radius: 5px;
@@ -453,7 +459,7 @@ th {
 }
 /* Informations section styles */
 #calendrier {
-    background-color: #f9f9f9;
+    background-color:rgba(255, 255, 255, 0.9);
     padding: 20px;
     margin-top: 20px;
     border-radius: 5px;
