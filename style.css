@@ -200,6 +200,27 @@ th {
                 box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             }
 
+            .Ensemble-perso-index{
+                align-content: center;
+                display: flex;
+                justify-content: space-around;
+            }
+            .person-card-index {
+                width: 500px;
+                background-color: #fff;
+                border-radius: 8px;
+                overflow: hidden;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                margin: 30px;
+                text-decoration: none;
+                color: inherit;
+                text-align: center;
+
+            }
+
+            .sport-info-index {
+                padding: 10px;
+            }
 /* Fin Index sections */
 
 /*TEST CARTES SPORTS */
