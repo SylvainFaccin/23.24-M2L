@@ -171,6 +171,7 @@ th {
             overflow: hidden;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             text-decoration: none;
+            color: inherit;
             /* TEST ANIMATION PASSAGE DE CURSEUR */
         }
 
@@ -178,6 +179,7 @@ th {
                 background-color: #c2c1c1;
                 transition: transform 0.3s ease-in-out;
                 transform: scale(1.1);
+        
             }
 
                 .sport-image {
@@ -358,8 +360,13 @@ th {
             overflow: hidden;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             margin: 30px;
+            text-decoration: none;
+          
             
         }
+            .lieu-card:visited{
+                color: inherit;
+            }
 
             .lieu-card:hover{
                 background-color: #f5f5f5;
@@ -375,6 +382,7 @@ th {
 
                 .lieu-info {
                     padding: 20px;
+                    
                 }
 
 
