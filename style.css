@@ -16,7 +16,7 @@ body {
 
 /* Styles communs à votre header */
 header {
-    background-color: #1167d8;
+    background-color: #1055af;
     color: #fff;
     padding: 10px 20px;
     top: 0;
@@ -89,13 +89,13 @@ th, td {
 }
 
 th {
-    background-color: #333;
+    background-color: #1055af;
     color: #fff;
 }
 
 /* Footer styles */
 #footer {
-    background-color: #333;
+    background-color: #1055af;
     color: #fff;
     padding: 20px;
     margin-top: 20px;
@@ -180,7 +180,8 @@ th {
         }
 
         .ensemble-photo-index{
-            display: flex;
+            width: 40%;
+            margin: 20px;
             align-items:center;
             margin: auto;
         }
@@ -193,11 +194,6 @@ th {
                 border-radius: 5px;
                 box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             }
-
-            .photo-index:hover{
-                transition: transform 0.5s ease-in-out;
-                transform: scale(1.8);
-            } 
 
 /* Fin Index sections */
 
