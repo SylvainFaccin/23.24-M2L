@@ -216,6 +216,9 @@ th {
             text-align: center;
             margin: auto;
         }
+            .historique-logo-texte{
+                width: 5%;
+            }
 
         .ensemble-photo-historique{
             display: flex;
