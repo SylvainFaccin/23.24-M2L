@@ -247,6 +247,9 @@ th {
             text-align: center;
             margin: auto;
         }
+            .historique-logo-texte{
+                width: 5%;
+            }
 
         .ensemble-photo-historique{
             display: flex;
@@ -392,6 +395,7 @@ th {
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             margin: 30px;
             text-decoration: none;
+            color: inherit;
           
             
         }
