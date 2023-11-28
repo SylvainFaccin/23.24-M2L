@@ -147,14 +147,45 @@ th {
 
 
 /* Informations section styles */
-#sectionclassique {
+
+#Financement{
     background-color: #f9f9f9;
     padding: 20px;
     margin-top: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+.Financement-div{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
 
+}
+#Financement-texte{
+    width: 40%;
+    margin: 20px;
+    text-align: center;
+    margin: auto;
+}
+ 
+#Ensemble-Financement-photo{
+    display: flex;
+    align-items:center;
+    margin: auto;
+}
+
+#Financement-photo{
+    margin: 20px;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.photo-historique:hover{
+    transition: transform 0.5s ease-in-out;
+    transform: scale(1.8);
+}
 /*TEST CARTES SPORTS */
 .ensemblecartessport {
     max-width: 1500px;
