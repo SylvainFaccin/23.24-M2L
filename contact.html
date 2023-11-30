@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body >
+    <!-- ... (Header) ... -->
+    <header class="index">
+        <h1 class="Titre1">Maison de la Ligue</h1>
+        
+        <div id="imagehome1"> 
+            <a href="index.html"> <img class="imagehome" src="Images/maison.png" alt="HOME" ></a></li>
+        </div>
+        <nav>
+            <ul>   
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#informations">Informations</a></li>
+                <li><a href="#sports">Sports</a></li>
+                <li><a href="#footer">Contact</a></li>
+            </ul>
+        </nav>
+    </header>  
+       <!-- ... Formulaire Contact ... --> 
+    <h1>Formulaire</h1>
+    
+    <form action="/process-form" method="post">
+        <fieldset>
+            <legend>Informations personnelles</legend>
+
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" placeholder="Entrez votre nom" required><br><br>
+
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" placeholder="Entrez votre email" required><br><br>
+
+            <label for="commentaires">Commentaires :</label><br>
+            <textarea id="commentaires" name="commentaires" placeholder="Entrez vos commentaires"></textarea><br><br>
+
+            <label for="pays">Pays :</label>
+            <select id="pays" name="pays">
+                <option value="france">France</option>
+                <option value="belgique">Belgique</option>
+                <option value="canada">Canada</option>
+                <option value="suisse">Suisse</option>
+                <!-- Ajoute d'autres pays ici si nécessaire -->
+            </select><br><br>
+
+            <label for="newsletter">S'abonner à la newsletter :</label>
+            <input type="checkbox" id="newsletter" name="newsletter" value="subscribe">
+        </fieldset>
+
+        <input type="submit" value="Envoyer">
+    
+    
+
+
+    <footer id="footer">
+        <div class="contact-info">
+            <h3>Contact</h3>
+            <p>Adresse : 123 Rue de la Ligue, Toulouse</p>
+            <p>Téléphone : 07 89 55 74 32 88</p>
+            <p>Email : contact@maisondelaligue.com</p>
+        </div>
+        <p>&copy; 2023 Maison de la Ligue. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
+
+
+
+</body>
+</html>
