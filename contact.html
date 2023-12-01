@@ -23,36 +23,65 @@
             </ul>
         </nav>
     </header>  
+    <br><br><br>
        <!-- ... Formulaire Contact ... --> 
-    <h1>Formulaire</h1>
-    
-    <form action="/process-form" method="post">
-        <fieldset>
-            <legend>Informations personnelles</legend>
-
-            <label for="nom">Nom :</label>
-            <input type="text" id="nom" name="nom" placeholder="Entrez votre nom" required><br><br>
-
-            <label for="email">Email :</label>
-            <input type="email" id="email" name="email" placeholder="Entrez votre email" required><br><br>
-
-            <label for="commentaires">Commentaires :</label><br>
-            <textarea id="commentaires" name="commentaires" placeholder="Entrez vos commentaires"></textarea><br><br>
-
-            <label for="pays">Pays :</label>
-            <select id="pays" name="pays">
-                <option value="france">France</option>
-                <option value="belgique">Belgique</option>
-                <option value="canada">Canada</option>
-                <option value="suisse">Suisse</option>
-                <!-- Ajoute d'autres pays ici si nécessaire -->
-            </select><br><br>
-
-            <label for="newsletter">S'abonner à la newsletter :</label>
-            <input type="checkbox" id="newsletter" name="newsletter" value="subscribe">
-        </fieldset>
-
-        <input type="submit" value="Envoyer">
+       <h2>Formulaire</h2>
+       <form action="/process-form" method="post" class="formulaire-contact">
+           <fieldset>
+               <legend>Informations de contact</legend>
+       
+               <label for="nom">Nom :</label>
+               <input type="text" id="nom" name="nom" placeholder="Entrez votre nom" required class="champ-texte"><br><br>
+       
+               <label for="email">Email :</label>
+               <input type="email" id="email" name="email" placeholder="Entrez votre email" required class="champ-texte"><br><br>
+       
+               <label for="commentaires">Commentaires :</label><br>
+               <textarea id="commentaires" name="commentaires" placeholder="Entrez vos commentaires" class="zone-texte"></textarea><br><br>
+       
+               <label for="pays">Pays / Fuseau Horaire:</label>
+               <select id="pays" name="pays" class="menu-deroulant">
+                <option value="argentina">Argentine (Buenos Aires)</option>
+    <option value="australia">Australie (Canberra)</option>
+    <option value="bangladesh">Bangladesh (Dacca)</option>
+    <option value="brazil">Brésil (Brasilia)</option>
+    <option value="canada">Canada (Ottawa)</option>
+    <option value="china">Chine (Pékin)</option>
+    <option value="colombia">Colombie (Bogotá)</option>
+    <option value="egypt">Égypte (Le Caire)</option>
+    <option value="ethiopia">Éthiopie (Addis-Abeba)</option>
+    <option value="france">France (Paris)</option>
+    <option value="germany">Allemagne (Berlin)</option>
+    <option value="india">Inde (New Delhi)</option>
+    <option value="indonesia">Indonésie (Jakarta)</option>
+    <option value="iran">Iran (Téhéran)</option>
+    <option value="italy">Italie (Rome)</option>
+    <option value="japan">Japon (Tokyo)</option>
+    <option value="kenya">Kenya (Nairobi)</option>
+    <option value="mexico">Mexique (Mexico)</option>
+    <option value="nigeria">Nigéria (Abuja)</option>
+    <option value="pakistan">Pakistan (Islamabad)</option>
+    <option value="philippines">Philippines (Manille)</option>
+    <option value="russia">Russie (Moscou)</option>
+    <option value="south-korea">Corée du Sud (Séoul)</option>
+    <option value="spain">Espagne (Madrid)</option>
+    <option value="uk">Royaume-Uni (Londres)</option>
+    <option value="us">États-Unis (Washington D.C.)</option>
+    <option value="us">Autres ...</option>
+                   <!-- Ajoutez d'autres pays ici si nécessaire -->
+               </select><br>
+       
+               <label for="newsletter">S'abonner à la newsletter :</label>
+               <input type="checkbox" id="newsletter" name="newsletter" value="subscribe" class="case-a-cocher">
+               
+               <div class="bouton-container">
+                <input type="submit" value="Envoyer" class="bouton-envoi">
+            </div>
+            </fieldset>
+       
+           
+       </form>
+       
     
     
 
@@ -66,6 +95,7 @@
         </div>
         <p>&copy; 2023 Maison de la Ligue. Tous droits réservés.</p>
     </footer>
+
 </body>
 </html>
 

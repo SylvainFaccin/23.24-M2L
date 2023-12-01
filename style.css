@@ -499,3 +499,47 @@ th {
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
+/* Styles du formulaire de contact */
+
+/* Style général du formulaire */
+.formulaire-contact {
+    width: 70%;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+/* Style des champs de saisie ( Pratique la virgule )*/
+.champ-texte,
+.zone-texte,
+.menu-deroulant {
+    width: calc(100% - 20px); /* Ajustement pour compenser la marge */
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Style du bouton Envoyer */
+.bouton-envoi {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.bouton-envoi:hover{
+    background-color:  #003d7d;
+}
+/* Style pour positionner le bouton à droite */
+.bouton-container {
+    text-align: right;
+}
+/* Style des labels */
+label {
+    font-weight: bold;
+}
