@@ -46,10 +46,9 @@ header {
 
   
   }
-    
-
-    header h1 {
-        font-size: 35px;
+    /* Mise en page Par défault pour toute les page lié a ce CSS */
+header h1 {
+    font-size: 35px;
 }
 
 nav ul {
@@ -111,16 +110,24 @@ th {
     background-color: #1055af;
     color: #fff;
 }
-
-/* Footer styles */
+/* FIN Mise en page Par défault */
+                    /* Footer styles */
 #footer {
     background-color:rgba(30, 72, 163,0.9);
     color: #fff;
     padding: 20px;
     margin-top: 20px;
     text-align: center;
+
 }
 
+/* Liens dans le footer */
+#footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Section contact pour footer */
 .contact-info {
     margin-bottom: 15px;
 }
@@ -131,11 +138,7 @@ th {
         margin-bottom: 10px;
     }
 
-/* Liens dans le footer */
-#footer a {
-    color: #fff;
-    text-decoration: none;
-}
+/* Fin Section footer */
 
 /* Section d'accueil */
 #accueil {
@@ -164,7 +167,6 @@ th {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-
 /* Informations section styles */
 #sectionclassique{
     background-color: #f9f9f9;
@@ -174,8 +176,7 @@ th {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Index sections */
-
+                /* Index sections */
 #index-section {
     background-color: #f9f9f9;
     padding: 20px;
@@ -237,7 +238,7 @@ th {
             }
 /* Fin Index sections */
 
-/*TEST CARTES SPORTS */
+            /* CARTES SPORTS */
 .ensemblecartessport {
     max-width: 1500px;
     margin: 20px auto;
@@ -254,7 +255,7 @@ th {
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             text-decoration: none;
             color: inherit;
-            /* TEST ANIMATION PASSAGE DE CURSEUR */
+            /*  ANIMATION PASSAGE DE CURSEUR */
         }
 
             .sport-card:hover {
@@ -274,7 +275,7 @@ th {
                     padding: 10px;
                 }
 
-/* FIN TEST CARTES SPORT */
+/* FIN  CARTES SPORT */
 
 /* Historique section styles */
 #Historique {
@@ -375,7 +376,7 @@ th {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-    /* TEST DES FICHES ENTRAINEURS */
+    
     .ensembledescartes {
         max-width: 1600px;
         margin: 20px auto;
@@ -438,7 +439,7 @@ th {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-    /* TEST DES FICHES LIEU */
+    /* FICHES LIEU */
     .ensembledescartes-lieu {
         max-width: 1600px;
         margin: 20px auto;
@@ -480,7 +481,7 @@ th {
                 }
 
 
-/* FIN TEST DES FICHES LIEU */
+/* FIN DES FICHES LIEU */
 
 
 /* joursentrainements section styles */
@@ -500,7 +501,7 @@ th {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Styles du formulaire de contact */
+            /* Styles du formulaire de contact */
 
 /* Style général du formulaire */
 .formulaire-contact {
@@ -543,3 +544,4 @@ th {
 label {
     font-weight: bold;
 }
+/* FIN Styles du formulaire de contact */
