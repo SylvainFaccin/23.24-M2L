@@ -31,6 +31,20 @@ header {
     box-sizing: border-box;
     left: 0;
     z-index: 1000;
+
+    background-image: url('Images/Logo/M2L.png');
+  
+  /* l'image ne se répète pas */
+  background-repeat: no-repeat;
+  
+  /* Optionnel : Balader l'image dans l'en-tête */
+  background-position: left;
+    
+  /* Optionnel : Modifier la taille de l'image dans l'en-tête */
+  background-size: 250px;
+
+
+  
   }
     
 
