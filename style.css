@@ -503,7 +503,7 @@ th {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-    .ensemble-tableau-match{
+    .ensemble-tableau{
         display: flex;
         justify-content: space-around;
         margin: 20px;
@@ -511,7 +511,7 @@ th {
 
     }
 
-        .ensemble-tableau-match table{ 
+        .ensemble-tableau table{ 
             margin-right: 20px;
             margin-bottom: 20px;
             max-width: 35%;
@@ -519,14 +519,14 @@ th {
             
 
         }
-            .ensemble-tableau-match table:hover{
+            .ensemble-tableau table:hover{
                 background-color: #f5f5f5;
                 transition: transform 0.3s ease-in-out;
                 transform: scale(1.1); 
                 
 
             }
-            .ensemble-tableau-match table caption{
+            .ensemble-tableau table caption{
                 margin-bottom: 20px;
                 padding-bottom: 10px;
                 padding-top: 10px;
@@ -535,11 +535,11 @@ th {
                 border-radius: 15px;
                 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
             }
-            .ensemble-tableau-match table td,th{
+            .ensemble-tableau table td,th{
                 text-align: center;
                 font-weight: bold;
             }
-                .ensemble-tableau-match table tr:nth-child(even){
+                .ensemble-tableau table tr:nth-child(even){
                     background-color: #dddddd;
                     
 
